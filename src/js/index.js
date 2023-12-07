@@ -68,7 +68,7 @@ let speed = 0;
 let animationIndex = 2; // parado
 
 const loader = new GLTFLoader();
-loader.load('../../assets/spider/scene.gltf', function (gltf) {
+loader.load('/Spider-Man/assets/spider/scene.gltf', function (gltf) {
   spider = gltf.scene;
   spider.scale.set(1, 1, 1);
   scene.add(spider);
